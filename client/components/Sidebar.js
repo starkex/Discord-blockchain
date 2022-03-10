@@ -6,7 +6,7 @@ import {useRouter} from 'next/router'
 
 const Sidebar = () => {
   return (
-    <div className={StyleSheet.wrapper}>Sidebar</div>
+    <div className={styles.wrapper}>Sidebar</div>
   )
 }
 
