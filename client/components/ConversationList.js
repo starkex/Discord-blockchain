@@ -17,6 +17,7 @@ const ConversationList = () => {
       console.error(error)
     }
   }, [])
+  
   return (
     <div className={styles.conversations}>
       <div className={styles.conversationListTop}>
@@ -33,7 +34,7 @@ const ConversationList = () => {
               alt='friends'
             />
           </div>
-          <p>Fiends</p>
+          <p>Friends</p>
         </div>
         <div className={styles.elementsContainer}>
           <div className={styles.svgContainer}>
